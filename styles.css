@@ -290,18 +290,16 @@ img {
 }
 
 .wide-photo {
-  max-height: min(24dvh, 235px);
+  height: min(24dvh, 235px);
   margin: 18px auto 0;
   border: 2px solid var(--line);
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   box-shadow: var(--shadow);
-  background: rgba(255, 255, 255, .58);
 }
 
 .location-slide .wide-photo {
-  width: min(100%, 360px);
-  height: auto;
+  width: 100%;
 }
 
 .map-frame {
