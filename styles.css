@@ -466,6 +466,15 @@ img {
   line-height: 1.34;
 }
 
+.contact-lines {
+  display: grid;
+  gap: 4px;
+}
+
+.contact-lines a {
+  font-weight: 600;
+}
+
 .countdown {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
